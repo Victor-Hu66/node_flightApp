@@ -1,0 +1,30 @@
+
+TODO:
+
+    1. setReservation
+        a. check the flight exists  ✅ 
+        b. get or create passengers  ✅ 
+        c. add flights to passengers documents ✅ 
+        d. try to make phone number unique ✅ 
+    
+
+    2. getReservations
+        a. get all reservations for staffUsers   ✅ 
+        b. get their own reservations for clientUsers  ✅ 
+        
+    3. retrieveReservation
+        a. clients can get their own reservation ✅ 
+
+    4. updateReservations
+        a. clients can update their own reservations ✅ 
+        b. staffUsers can update all reservations ✅ 
+        c. handle passenger updates while updating reservation ✅ 
+
+    5. deleteReservations
+        a. clients can delete their own reservations
+        b. staffUsers can delete all reservations     
+        c. handle passenger updates while deleting reservation ✅ 
+
+
+        TRY:
+            flights:[{ type: mongoose.Schema.Types.ObjectId, ref:"Flights"}]
